@@ -22,5 +22,5 @@ st.write("First 5 rows of the data:")
 st.write(df.head())
 
 
-age = st.text_input("Enter Age:")
-st.write(f"Age entered: {age}") 
+age = st.selectbox("Select Age", options=list(range(10, 71)))
+
