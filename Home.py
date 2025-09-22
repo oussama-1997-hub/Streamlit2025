@@ -46,4 +46,4 @@ with st.form("patient_form"):
         min_value=0,
         value=int(df['Nbre_peritonitis'].mean())
     )
-    
+    submitted = st.form_submit_button("🔍 Predict")
