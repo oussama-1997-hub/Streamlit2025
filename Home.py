@@ -15,7 +15,7 @@ if st.uploaded_file is not None:
     st.write("Preview of the uploaded data:")
     st.dataframe(df)
 
-df.header(10)
+df.head(10)
 st.write("Data Summary:")
 st.write(df.describe())
 st.write("First 5 rows of the data:")
