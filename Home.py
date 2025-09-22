@@ -15,4 +15,4 @@ with st.form("patient_form"):
     )
 
 
-st.form_submit_button()
+    st.form_submit_button()
