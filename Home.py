@@ -15,4 +15,4 @@ with st.form("patient_form"):
     )
 
 
-submitted = st.form_submit_button("🔍 Predict")
+st.form_submit_button()
