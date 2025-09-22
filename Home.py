@@ -22,9 +22,5 @@ st.write("First 5 rows of the data:")
 st.write(df.head())
 
 
-age = st.slider("Select Age Range", int(df['age'].min()), int(df['age'].max()), (int(df['age'].min()), int(df['age'].max())))
-filtered_df = df[(df['age'] >= age[0]) & (df['age'] <= age[1])]
-st.write(f"Data filtered by age range: {age}")
-st.dataframe(filtered_df)
-st.write("Summary of filtered data:")
-st.write(filtered_df.describe())
+age = st.text_input("Enter Age:")
+st.write(f"Age entered: {age}") 
